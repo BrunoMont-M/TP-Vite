@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root {
+    font-family: 'Ubuntu', sans-serif;    
+    font-size: 16px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo {
+    width: 7rem;
+    min-height: 33px;
+}
+.links {
+    margin: 25px;
+    padding: 1rem;
+    list-style: none;
+    display: inline-block;
+    
+}
+.links li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 20px;
+}
+.links li a {
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: lighter;
+    color: rgb(34, 34, 34);
+    display: inline-block;
+    padding-left: 5px;
+    text-decoration: dashed;
+}
+.links li a:hover{
+    color:#8d4925
+}
+.menu {
+    margin-top: 3rem;
+    padding-right: 3rem;
+    list-style: none;
+    display: flex;
+    padding-left: 3rem;
+}
+.menuImg {
+    margin-right: 3rem;
+}
+.divPrecio {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 24px;
+}
+.menuText {
+    margin-top: 5%;
+}
+.buttons {
+    display: flex;
+    margin-top: 3rem;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.buttons .button1:hover {
+    background-color: royalblue;
+}
+.buttons .button2:hover {
+    background-color: royalblue;
+}
+.button1 {
+    background-color: #8d4925;
+    color: blanchedalmond;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    padding: 7px;
+}
+.button2 {
+    background-color: rgb(75, 75, 75);
+    color: blanchedalmond;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    padding: 7px;
+}
+.divTitle {
+    margin-bottom: 3rem;
+    text-align: center;
+}
